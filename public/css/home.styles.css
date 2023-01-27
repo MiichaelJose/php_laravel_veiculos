@@ -1,0 +1,38 @@
+.vehicle {
+    background-color: var(--orange);
+}
+
+.maintenance {
+    width: 100%;
+    max-width: 450px;
+    display: none;
+    padding-inline: 10px;
+    background-color: var(--gray);
+}
+
+.maintenance .card__texts {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#box {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.admin-maintenance {
+    max-width: 190px;
+    background: #A0E7E5;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-inline: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
